@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset-css.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Library</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>My Library</h1>
+        <button id="myBtn">Add New book</button>
+      </header>
+      <main>
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <form action="">
+              <div class="addForm">
+                <label for="title">Title:</label>
+                <input type="text" name="bTitle" id="title" />
+                <label for="author">Author:</label>
+                <input type="text" name="bAuthor" id="author" />
+                <label for="nop">Number of pages:</label>
+                <input
+                  type="number"
+                  min="100"
+                  max="10000"
+                  name="bNOP"
+                  id="nop"
+                />
+                <input type="submit" id="submit" />
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="grid-container" id="gridContainer">
+          <div class="grid-item">
+            <img src="assets/images/91Sy3S-198L._SL1500_.jpg" alt="" />
+            <h2>The Lost Bookshop</h2>
+            <h3>Written by: Evie Woods</h3>
+            <p>Number of pages:444</p>
+            <div class="button-container">
+              <button>Change Status</button>
+              <button>Remove Book</button>
+            </div>
+          </div>
+          <div class="grid-item">
+            <img src="assets/images/91Sy3S-198L._SL1500_.jpg" alt="" />
+            <h2>The Women</h2>
+            <h3>Written by: Evie Woods</h3>
+            <p>Number of pages:444</p>
+            <div class="button-container">
+              <button>Change Status</button>
+              <button>Remove Book</button>
+            </div>
+          </div>
+          <div class="grid-item">
+            <img src="assets/images/91Sy3S-198L._SL1500_.jpg" alt="" />
+            <h2>The Housemaid</h2>
+            <h3>Written by: Evie Woods</h3>
+            <p>Number of pages:444</p>
+            <div class="button-container">
+              <button>Change Status</button>
+              <button>Remove Book</button>
+            </div>
+          </div>
+          <div class="grid-item">
+            <img src="assets/images/91Sy3S-198L._SL1500_.jpg" alt="" />
+            <h2>The Silent Patient</h2>
+            <h3>Written by: Evie Woods</h3>
+            <p>Number of pages:444</p>
+            <div class="button-container">
+              <button>Change Status</button>
+              <button>Remove Book</button>
+            </div>
+          </div>
+          <div class="grid-item">
+            <img src="assets/images/91Sy3S-198L._SL1500_.jpg" alt="" />
+            <h2>Trust</h2>
+            <h3>Written by: Evie Woods</h3>
+            <p>Number of pages:444</p>
+            <div class="button-container">
+              <button>Change Status</button>
+              <button>Remove Book</button>
+            </div>
+          </div>
+          <div class="grid-item">
+            <img src="assets/images/91Sy3S-198L._SL1500_.jpg" alt="" />
+            <h2>Flicker In The Dark</h2>
+            <h3>Written by: Evie Woods</h3>
+            <p>Number of pages:444</p>
+            <div class="button-container">
+              <button>Change Status</button>
+              <button>Remove Book</button>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <h3>Copyright by Duc Le @ 2024</h3>
+      </footer>
+    </div>
+  </body>
+  <script src="build/script.js"></script>
+</html>
